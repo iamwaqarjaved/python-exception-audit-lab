@@ -3,7 +3,7 @@
 > **AI catches the unraisable; you catch what AI missed.**  
 > A hands-on lab that teaches you to audit Python exception handling using AI as a first-pass tool — then validates every suggestion against the real docs.
 
-[![CI](https://github.com/YOUR_USERNAME/python-exception-audit-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/python-exception-audit-lab/actions/workflows/ci.yml)
+[![CI](https://github.com/iamwaqarjaved/python-exception-audit-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/iamwaqarjaved/python-exception-audit-lab/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
 ![Tests](https://img.shields.io/badge/tests-30%20passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -255,3 +255,20 @@ pytest tests/ -v --cov=refactored --cov-report=term-missing
 ## 📄 License
 
 MIT — use freely for learning, teaching, or portfolio projects.
+
+---
+
+## ✅ Verified on macOS (Local Run Proof)
+
+All 30 tests confirmed passing on a real MacBook Pro — Python 3.10.5, pytest 9.1.0.
+
+### Step 1 — Install dependencies
+![Install dependencies](docs/screenshots/01_install_dependencies.png)
+
+### Step 2 — First run: write snapshots (`--snapshot-update`)
+![Snapshot update run — 30 passed](docs/screenshots/02_snapshot_update_run.png)
+
+### Step 3 — Clean run: validate against snapshots
+![Clean test run — 30 passed in 0.13s](docs/screenshots/03_clean_test_run.png)
+
+> **Platform:** darwin · Python 3.10.5 · pytest 9.1.0 · pluggy 1.6.0
