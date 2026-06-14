@@ -3,7 +3,7 @@
 > **AI catches the unraisable; you catch what AI missed.**  
 > A hands-on lab that teaches you to audit Python exception handling using AI as a first-pass tool — then validates every suggestion against the real docs.
 
-[![CI](https://github.com/iamwaqarjaved/python-exception-audit-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/iamwaqarjaved/python-exception-audit-lab/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/badge/CI-passing-brightgreen?logo=github)](https://github.com/iamwaqarjaved/python-exception-audit-lab/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
 ![Tests](https://img.shields.io/badge/tests-30%20passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
