@@ -58,7 +58,7 @@ python-exception-audit-lab/
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/python-exception-audit-lab.git
+git clone https://github.com/iamwaqarjaved/python-exception-audit-lab.git
 cd python-exception-audit-lab
 
 # 2. Create a virtual environment
@@ -209,7 +209,7 @@ For every external boundary (file I/O, HTTP, subprocess, DB):
 python3 --version
 
 # Clone and enter repo
-git clone https://github.com/YOUR_USERNAME/python-exception-audit-lab.git
+git clone https://github.com/iamwaqarjaved/python-exception-audit-lab.git
 cd python-exception-audit-lab
 
 # Create isolated environment
